@@ -12,6 +12,20 @@ If you installed ESLint globally, you have to install React plugin globally too.
 
 ```$ npm install eslint-plugin-json5 --save-dev```
 
+## Configuration
+
+Add the plugin in your eslint configuration `eslintrc.json` or equivalent.
+
+```json5
+{
+    // ...
+    plugins: [
+        // ...
+        "json5",
+    ],
+}
+```
+
 The preprocessor is then directly used for json5 files.
 You still have to add them to the linted file extensions when calling eslint.
 

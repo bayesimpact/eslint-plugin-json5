@@ -5,12 +5,12 @@
   "description": "Simple preprocessor to be able to lint json5 files",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"TODO(cyrille): Add tests.\"",
+    "test": "echo \"TODO(cyrille): Add tests.\""
   },
   "files": [
     "LICENSE",
     "README.md",
-    "index.js",
+    "index.js"
   ],
   "repository": {
     "type": "git",
