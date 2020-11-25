@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-json5",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Cyrille Corpet <cyrille@bayesimpact.org>",
   "description": "Simple preprocessor to be able to lint json5 files",
   "main": "index.js",
