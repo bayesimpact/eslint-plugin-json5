@@ -6,8 +6,11 @@ module.exports = {
     processors: {
         '.json5': {
             preprocess: function(text, filename) {
+                console.log("It's me babe")
+                console.log(text.slice(0, PREFIX_LENGTH * 2))
+                console.log(filename)
                 return [{
-                    text: PREFIX + text,
+                    text: text.startsWith(PREFIX) ? text : PREFIX + text,
                     filename: filename,
                 }]
             },
