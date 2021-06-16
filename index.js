@@ -8,7 +8,7 @@ module.exports = {
             preprocess: function(text, filename) {
                 return [{
                     text: PREFIX + text,
-                    filename: filename,
+                    filename: filename + '.js',
                 }]
             },
             postprocess: function(messages, filename) {
